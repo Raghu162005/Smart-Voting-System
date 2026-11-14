@@ -1,0 +1,50 @@
+# ── Secrets & environment ─────────────────────────────────────
+.env
+.env.*
+!.env.example
+frontend/.env.local
+firebase-service-account.json
+backend/api/firebase-service-account.json
+
+# ── Local-only documentation ──────────────────────────────────
+REPORT_DOCUMENTATION.md
+SYSTEM_STATUS_REPORT.md
+
+# ── Databases & biometric data ────────────────────────────────
+backend/api/voting.db
+backend/api/voting.db-*
+backend/api/faces/
+backend/api/debug_captures/
+temp_*.jpg
+backend/api/temp_*.jpg
+
+# ── Personal / scanned images ─────────────────────────────────
+backend/api/party_symbols/DL.jpeg
+backend/api/party_symbols/signature.jpg
+backend/api/party_symbols/Scanned_*.jpg
+backend/api/party_symbols/WhatsApp_Image_*.jpeg
+backend/api/party_symbols/desktop.jpg
+backend/api/party_symbols/Photo.jpeg
+backend/api/party_symbols/photo.jpg
+backend/api/party_symbols/images.png
+
+# ── Python ────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+
+# ── Node / Next.js ────────────────────────────────────────────
+node_modules/
+.next/
+out/
+npm-debug.log*
+yarn-error.log*
+frontend/tsconfig.tsbuildinfo
+
+# ── Editors / OS ──────────────────────────────────────────────
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log

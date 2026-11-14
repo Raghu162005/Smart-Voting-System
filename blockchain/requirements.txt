@@ -1,0 +1,2 @@
+# Python dependencies for Ethereum integration
+web3>=6.0.0
