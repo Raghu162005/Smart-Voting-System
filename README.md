@@ -481,10 +481,6 @@ If you fork this project, create your own configuration from `.env.example`, nev
 
 ---
 
-## License
 
-This project was developed for academic and educational purposes. No open-source license has been declared yet — add a `LICENSE` file (e.g. MIT) if you intend to distribute or reuse the code.
-
----
 
 <p align="center">Built with Flask, Next.js, DeepFace, and Ethereum Sepolia.</p>
